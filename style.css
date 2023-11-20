@@ -1,8 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 20px;
-    background-color: darkmagenta;
-}
+    background-image: url(Immagine\ JPEG-4729-8EEF-87-0.jpeg);
 
 #container{
     width: 1000px;
@@ -19,7 +18,7 @@ body {
 
 #H1DATI{
     text-align: center;
-    color: black;
+    color: darkmagenta;
 }
 
 form {
@@ -28,6 +27,7 @@ form {
 
 #lab{
     margin-left: 10px;
+    color: darkmagenta;
 }
 
 h1{
@@ -37,7 +37,7 @@ h1{
 
 #biglietto {
     margin: auto;
-    height: 200px;
+    min-height: 200px;
     width: 400px;
     display: none;
     margin-top: 20px;

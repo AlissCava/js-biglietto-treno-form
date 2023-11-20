@@ -8,6 +8,7 @@
 </head>
 <body>
 
+      <!-- Form per inserire i dati -->
     <div id="container">  
         <h1 id="H1DATI">INSERISCI QUI I TUOI DATI</h1>
         <div id="divform">
@@ -19,23 +20,26 @@
                 <input type="number" id="distanza" required>
                 
                 <label id="lab" for="eta">Età:</label>
-                <input type="number" id="eta" required>
+                <input type="text" id="eta" required>
               
                 <button type="button" onclick="generaBiglietto()">Genera Biglietto</button>
+                <button type="button" onclick="annullaPrenotazione()">Annulla</button>
             </form>
         </div>
       
      
     </div>
 
+    <!-- Riepilogo del biglietto -->
     <h1>IL TUO BIGLIETTO</h1>
   
 
     <div id="biglietto">
         <h2>Riepilogo Biglietto</h2>
         <p><strong>Nome:</strong> <span id="outputNome"></span></p>
-        <p><strong>Distanza:</strong> <span id="outputDistanza"></span> km</p>
-        <p><strong>Età:</strong> <span id="outputEta"></span></p>
+        <p><strong>Sconto:</strong> <span id="outputTipoTariffa"></span></p>
+        <p><strong>Carrozza:</strong> <span id="outputCarrozza"></span></p>
+        <p><strong>Codice Biglietto:</strong> <span id="outputCodiceBiglietto"></span></p>
         <p><strong>Tariffa:</strong> €<span id="outputTariffa"></span></p>
     </div>
 
