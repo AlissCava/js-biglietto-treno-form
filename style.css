@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: darkmagenta;
+}
+
+#container{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+#divform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#H1DATI{
+    text-align: center;
+    color: black;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#lab{
+    margin-left: 10px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+#biglietto {
+    margin: auto;
+    height: 200px;
+    width: 400px;
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+button {
+    cursor: pointer;
+}
