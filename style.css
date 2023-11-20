@@ -2,6 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 20px;
     background-image: url(Immagine\ JPEG-4729-8EEF-87-0.jpeg);
+}
 
 #container{
     width: 1000px;
@@ -25,9 +26,14 @@ form {
     margin-bottom: 20px;
 }
 
+#bottoni{
+    margin-top: 20px;
+    margin-left: 40%;
+}
+
 #lab{
     margin-left: 10px;
-    color: darkmagenta;
+    color: darkmagenta;;
 }
 
 h1{
